@@ -1,5 +1,7 @@
-<template style='pug'>
+<template lang='pug'>
  include ~bem-pug-mixins/mixins
+ +b.Example
+  h1 Example component!
 
 </template>
 
