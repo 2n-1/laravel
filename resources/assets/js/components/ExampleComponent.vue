@@ -4,15 +4,17 @@
 </template>
 
 <script>
+/*
+import Component from './Component'
+*/
 export default {
   name: 'example',
   props: [],
-  components: {},
+  components: {
+    /* Component */
+  },
   data() {
     return {};
-  },
-  mounted() {
-    console.log(`Component ${this.$options.name} mounted.`);
   },
   methods: {},
 };
