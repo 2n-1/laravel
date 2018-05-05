@@ -13,15 +13,12 @@
     <!-- Scripts -->
 
     <!-- Styles -->
-    <!--<link href="{{ asset('css/app.css') }}" rel="stylesheet">
--->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
 </head>
 <body>
-    <div>
-        <main>
-            @yield('content')
-        </main>
-    </div>
+@yield('content')
 @yield('footer')
+<script src="{{ mix('js/app.js') }} "></script>
 </body>
 </html>
