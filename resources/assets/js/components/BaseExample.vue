@@ -6,9 +6,13 @@
 <script>
 /*
 import Component from './Component'
+import RoutePage from '../mixins/RoutePage'
 */
 export default {
   name: 'example',
+  mixins: [
+    /* routePage */
+  ],
   props: [],
   components: {
     /* Component */
