@@ -2,11 +2,13 @@ require('./bootstrap');
 import upperFirst from 'lodash/upperFirst';
 import camelCase from 'lodash/camelCase';
 import VueRouter from 'vue-router';
+import VueBem from 'vue-bem';
 
 const debug = true;
 
 window.Vue = require('vue');
 Vue.use(VueRouter);
+Vue.use(VueBem);
 
 Vue.mixin({
   mounted() {

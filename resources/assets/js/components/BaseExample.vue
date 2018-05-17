@@ -1,8 +1,6 @@
 <template lang='pug'>
- include ~bem-pug-mixins/mixins
- +b.Example
-  h1 Example component!
-
+ div(v-bem)
+  h1(v-bem:title) YOLO! 
 </template>
 
 <script>
