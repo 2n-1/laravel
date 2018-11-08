@@ -11,7 +11,6 @@ const mix = require('laravel-mix');
  |
  */
 
-<<<<<<< HEAD
 /*mix.webpackConfig(webpack => {
   return {
     plugins: [
@@ -29,7 +28,3 @@ const mix = require('laravel-mix');
 mix
   .js('resources/assets/js/app.js', 'public/js')
   .stylus('resources/assets/styl/app.styl', 'public/css');
-=======
-mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
->>>>>>> upstream/master
